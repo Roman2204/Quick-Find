@@ -29,8 +29,8 @@ public class QuickFindUF
     public void printIDs ()
     {
         System.out.print("id[]:");
-        for (int i = 0; i < id.length; i++)
-            System.out.print(" " + id[i]);
+        for ( int element : id )
+            System.out.print(" " + element);
         System.out.println();
     }
 
