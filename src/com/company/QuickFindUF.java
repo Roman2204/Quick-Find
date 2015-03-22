@@ -37,7 +37,7 @@ public class QuickFindUF
 
     public static void main(String[] args)
     {
-        /* Quick Find demo from Coursera */
+        System.out.println("Quick Find demo from Coursera");
         QuickFindUF QuickFind1 = new QuickFindUF(10);
         QuickFind1.printIDs();
         QuickFind1.union(4, 3);
